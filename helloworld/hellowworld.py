@@ -10,6 +10,6 @@ if x == 1:
     if hello == "hello World":
         print(hello, " and good day")
 
-
+# concat or adding strings together
 helloworld = "hello" + " " + "world"
-print(helloworld)
+print(helloworld) 
