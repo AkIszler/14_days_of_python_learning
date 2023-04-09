@@ -4,3 +4,4 @@
 
 🥅 my main goal is to build a few basic APIs than I can use in place with a basic webapp 🕸
 
+🕸️ Shout out to www.learnpython.org
