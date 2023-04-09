@@ -1,11 +1,89 @@
 def a_function():  
         print("im a function!") # creates a function to print a string
-
+        y = "string"
+        print("I make a %s"% y)
 def another_function():
+        
+        z = "strings"
+
         print("and i am another function!") #also prints a string
+        print("I make %s"% z)
+        print(z)
+
+def a_username_and_pass(username, password): # sets up a function for two vars
+       print("hello %s your password is %s"
+% (username, password))       
+
+
+def sum_two_numbers(a, b):
+    return a + b
 
 x = 1
 
-if x == 1:  # is true so it will run both functions
+if x == 1:  # is true so it will run functions
     a_function()
     another_function()
+
+username = "tony"         #vars are listed
+password = "hello world"
+
+a_username_and_pass(username,password)
+#print out function with vars 
+
+x = 2   #vars are relisted
+
+if x    == 1:   # is    false
+       a_function()
+else:                   #is true so it will run functions
+       another_function() #calls other_function
+       print(sum_two_numbers(2, 3)) #prints out function with vars
+       #prints 2 + 3 = 5
+
+
+################################################################
+# advanced functions / Data camp exercise
+
+# Define our 3 functions
+def my_function():
+    print("Hello From My Function!")
+
+def my_function_with_args(username, greeting):
+    print("Hello, %s, From My Function!, I wish you %s"%(username, greeting))
+
+def sum_two_numbers(a, b):
+    return a + b
+
+# print(a simple greeting)
+my_function()
+
+#prints - "Hello, John Doe, From My Function!, I wish you a great year!"
+my_function_with_args("John Doe", "a great year!")
+
+# after this line x will hold the value 3!
+x = sum_two_numbers(1,2)
+
+
+#exercise
+
+# Modify this function to return a list of strings as defined above
+def list_benefits():
+    return "the more you do, the more you learn!", "I wish you understood", "so never forget"
+
+# Modify this function to concatenate to each benefit - " is a benefit of functions!"
+def build_sentence(benefit):
+    return "%s the harder you work the better youll be." % benefit
+
+def name_the_benefits_of_functions():
+    list_of_benefits = list_benefits()
+    for benefit in list_of_benefits:
+        print(build_sentence(benefit))
+        
+
+name_the_benefits_of_functions()
+
+#making a function 
+def function_the_functions():
+     print("function")
+
+function_the_functions()
+
