@@ -46,3 +46,18 @@ print(astring[3:7]) #will print out the string from the 3rd to the 7th letter.
 
 print(astring[3:7]) #will print out lo w
 print(astring[3:7:1]) # this will also print lo w This is extended slice syntax. The general form is [start:stop:step].
+
+##############CONDITONS##################
+
+x = 2
+
+#print(x == 2)  # this will print true
+#print(x == 4)  # this will print false
+#print((x *3) == 6) # this will print true
+
+x = 2
+print(x == 2) and (x == 4) # this will prints true for some reason
+print(x == 2) or (x == 4) # this will print true 
+
+if (x == 2) and (x == 4):
+    print("x is 2 and 4")
