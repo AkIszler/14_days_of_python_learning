@@ -1,0 +1,11 @@
+def a_function():  
+        print("im a function!") # creates a function to print a string
+
+def another_function():
+        print("and i am another function!") #also prints a string
+
+x = 1
+
+if x == 1:  # is true so it will run both functions
+    a_function()
+    another_function()
