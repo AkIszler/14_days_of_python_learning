@@ -27,6 +27,13 @@ class foodClass: # class for talking to user
 
     print("fine........")
     time.sleep(2)
-    print ("I guess %s is an okay food" % their)
+    print ("I guess %s is okay" % their)
+    their2 = input("any other food? ")
+    print("interesting........")
+    print("let me think")
+    time.sleep(2)
+    print("well %s is just silly" % their2)
+
+
 
     
